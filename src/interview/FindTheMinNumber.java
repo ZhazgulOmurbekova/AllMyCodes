@@ -13,6 +13,7 @@ public class FindTheMinNumber {
 
            }
        }
+
         System.out.println(min);
 
         System.out.println("--------------");
