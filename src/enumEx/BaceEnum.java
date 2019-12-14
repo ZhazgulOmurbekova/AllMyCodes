@@ -1,3 +1,6 @@
+
+
+
 package enumEx;
 
 public class BaceEnum {
@@ -7,4 +10,9 @@ public class BaceEnum {
         LetterGrade grade;
         grade = LetterGrade.A;
     }
+
 }
+
+
+
+

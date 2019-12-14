@@ -187,7 +187,6 @@ public class Shelf {
         public static List<Book> getAllBooksForAuthor(String author) {
 
             for (Book book: theBooks) {
-                
 
             }
             return null;
