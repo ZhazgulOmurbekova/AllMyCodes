@@ -6,10 +6,11 @@ public class OverleadMethodParametersProm {
         calc(45);
     }
 
-    public static void  calc (int   i ) {
+    public static void calc(int i) {
         System.out.println(" using int ");
 
     }
+
     public static void calc(long d) {
         System.out.println("using long ");
 
@@ -19,8 +20,13 @@ public class OverleadMethodParametersProm {
         System.out.println(" using float ");
 // always printing   int if there is no int print closest
     }
-    public static void  calc (byte    d ) {
+
+    public static void calc(byte d) {
         System.out.println(" using double  ");
 
     }
+
+//    public static int calc(byte d) {
+//        System.out.println(" using double  ");
+//    }
 }

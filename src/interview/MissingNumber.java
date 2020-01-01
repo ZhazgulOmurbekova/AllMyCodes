@@ -1,8 +1,12 @@
 package interview;
 
+import java.util.Arrays;
+
 public class MissingNumber {
     public static void missingNum(int [] nums){
-        for (int i = 0; i < 10 ; i++) {
+        Arrays.sort(nums);
+
+        for (int i = 0; i < nums[nums.length-1] ; i++) {
             boolean b = false;
             for (int j = 0; j < nums.length; j++) {
                 if (nums[j]==i){

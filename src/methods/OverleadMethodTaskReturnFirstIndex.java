@@ -27,4 +27,5 @@ Take the substring of the String based on the two numbers provided. Return the l
     public static int printString (String str, int indexOne, int indextwo) {
         return str.substring(indexOne, indextwo).length();
 }
+
 }

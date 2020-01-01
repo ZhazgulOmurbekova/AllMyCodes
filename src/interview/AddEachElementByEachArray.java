@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class AddEachElementByEachArray {
     public static void main(String[] args) {
         int [] num1 = {1,2,4,5,6,7};
-        int [] num2 = {1,2,4,5,6,7};
+        int [] num2 = {1,2,4,5,6,9};
         //int length=
 
         int []newArr = new int[num1.length];
