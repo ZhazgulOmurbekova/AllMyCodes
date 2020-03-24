@@ -1,6 +1,6 @@
 package Interface;
 
-import Abstract2.Browser;
+import abstract2.Browser;
 
 public class Chrome extends Browser implements Bookmark{
     @Override

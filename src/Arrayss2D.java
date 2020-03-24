@@ -1,6 +1,8 @@
 import java.util.Arrays;
 
 public class Arrayss2D {
+
+
     public static void main(String[] args) {
 
         int [][] groups = new int [3][4];

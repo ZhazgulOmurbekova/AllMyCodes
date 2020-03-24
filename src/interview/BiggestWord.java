@@ -14,10 +14,9 @@ Find the biggest word in your String and print it.*/
 
 
     String []arr=str.split(" ");
-
     int length = 0;
-        System.out.println(Arrays.toString(arr));
-        for (String word: arr){
+    System.out.println(Arrays.toString(arr));
+    for (String word: arr){
         if(word.length() > length){
             length = word.length();
 

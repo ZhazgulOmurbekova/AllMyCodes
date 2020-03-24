@@ -3,20 +3,15 @@ package interview;
 public class MissingNumbers {
     public static void main(String[] args) {
         int [] nums = {1,2,3,6,4,9};
-
-        int temp =0;
-        for (int k = 0; k < nums.length; k++) {
-            for (int j = 0; j < nums.length-1; j++) {
-                if (nums[j] > nums[j + 1])
-                    temp = nums[j + 1];
-                nums[j + 1] = nums[j];
-                nums[j] = temp;
+        int max = nums[0];
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] > max){
+                max = nums[i];
 
             }
         }
 
-
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < max; i++) {
             boolean check = false;
             for (int j = 0; j < nums.length; j++) {
                 if (nums[j] == i) {
