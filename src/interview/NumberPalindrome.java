@@ -17,14 +17,14 @@ public static void main(String[] args) {
 }
 
     public static boolean palindromeNum(long num){
-        long workingNum = num;
+        long wNum = num;
         long revers = 0;
 
-      while (workingNum != 0) {
+      while (wNum != 0) {
 
-          long last = workingNum % 10;
+          long last = wNum % 10;
           revers = revers * 10 + last;
-          workingNum /= 10;
+          wNum /= 10;
 
 
 

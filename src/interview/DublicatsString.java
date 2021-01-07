@@ -4,21 +4,21 @@ import java.util.Arrays;
 
 public class DublicatsString {
     public static void main(String[] args) {
-        String [] words = {"sdfg", "ghjkjuio", "hjklkjhhjk","sdf","sdfg"};
+        String [] teams = {"Cubs", "Brewers", "Cubs","Cubs","Cardinals", "Brewers"};
 
         String word = "";
-        String temp = "";
-        for (int i = 0; i < words.length; i++) {
-            if(!temp.contains(words[i])) {
-                temp += words[i];
+        String result = "";
+        for (int i = 0; i < teams.length; i++) {
+            if(!result.contains(teams[i])) {
+                result += teams[i];
 
                 int count = 0;
-                for (int j = 0; j < words.length; j++) {
-                    if (words[i].equals(words[j])) {
+                for (int j = 0; j < teams.length; j++) {
+                    if (teams[i].equals(teams[j])) {
                         count++;
                     }
                     if (count >= 2) {
-                        word += words[i] + " ";
+                        word += teams[i] + " ";
                     }
                 }
             }
@@ -26,5 +26,12 @@ public class DublicatsString {
         String [] arr = word.split(" ");
         System.out.println(Arrays.toString(arr));
 
+
+
+
     }
+
+
+
+
 }

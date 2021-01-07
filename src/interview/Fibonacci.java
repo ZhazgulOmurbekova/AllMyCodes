@@ -9,7 +9,7 @@ public class Fibonacci {
     public static void main(String[] args) {
         //fibonacci(10);
       //  fibonacci1(15);
-        System.out.println(fibonacci(10));
+        System.out.println(fibonacci(11));
 
     }
     public static String  fibonacci1(int num){

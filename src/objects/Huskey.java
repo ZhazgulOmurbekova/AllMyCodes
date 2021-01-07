@@ -15,12 +15,15 @@ public class Huskey extends Dog{
         assd();
         System.out.println(dfgf());
 
+
+
     }
 
 
     public static void assd() {
         System.out.println(Dog.age = 1234);
         System.out.println(Dog.color = "blue");
+        //int
 
     }
     public static int dfgf(){

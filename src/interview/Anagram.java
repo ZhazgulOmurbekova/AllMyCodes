@@ -1,5 +1,8 @@
 package interview;
 
+import java.security.PublicKey;
+import java.util.List;
+
 public class Anagram {
     public static void main(String[] args) {
         String a = "march";
@@ -22,12 +25,27 @@ public class Anagram {
                 }
 
             }
-        }if (count == a.length()){
+        }
+        if (count == a.length()){
 
             System.out.println(check = true);
         }else{
            ;
             System.out.println( check = false);
         }
+    }
+
+
+
+    public void sumOfList(){
+
+        int [] arr = {1,2,3,4,5};
+        int [] newArr = new int[1];
+        for (int i = 0; i < arr.length; i++) {
+            newArr[i] += arr[i];
+
+        }
+        System.out.println(newArr);
+
     }
 }
